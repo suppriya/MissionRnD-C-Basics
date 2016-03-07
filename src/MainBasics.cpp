@@ -33,9 +33,10 @@ int main(){
 
 
 	//Test Swap
-	int a = -1, b = -3;
+	int a = -111, b = 333;
+	printf("the value of a=%d and b=%d before swapping\n", a, b);
 	swap(&a, &b);
-	printf("the value of a=%d and b= %d\n", a, b);
+	printf("the value of a= %d and b= %d\n", a, b);
 
 	//Is Older 
 	char date1[20] = "29-02-2004";
