@@ -28,15 +28,15 @@ int main(){
 	
 	//Test Count file
 	
-	int countTemp = count(5, 20);
-	printf("%d\n", countTemp);
+	int countTemp = count(5,20);
+	printf("The count that are divisible are %d\n", countTemp);
 
 
 	//Test Swap
 	int a = -111, b = 333;
 	printf("the value of a=%d and b=%d before swapping\n", a, b);
 	swap(&a, &b);
-	printf("the value of a= %d and b= %d\n", a, b);
+	printf("the value of a= %d and b= %d after swapping\n", a, b);
 
 	//Is Older 
 	char date1[20] = "29-02-2004";
