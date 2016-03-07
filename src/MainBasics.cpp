@@ -23,8 +23,8 @@ int main(){
 	
 	//Test Sum of numbers
 	
-	int sumTemp = sum(4, 3);
-	printf("%d\n", sumTemp);
+	int sumTemp = sum(-1, -3);
+	printf("sum is %d\n", sumTemp);
 	
 	//Test Count file
 	
@@ -33,9 +33,9 @@ int main(){
 
 
 	//Test Swap
-	int a = 5, b = 7;
+	int a = -1, b = -3;
 	swap(&a, &b);
-	printf("%d %d\n", a, b);
+	printf("the value of a=%d and b= %d\n", a, b);
 
 	//Is Older 
 	char date1[20] = "29-02-2004";
